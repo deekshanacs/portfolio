@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Press Start 2P', 'Courier New', monospace;
+      background: linear-gradient(135deg, #ffd9e8 0%, #ffe8cc 100%);
+      color: #2c3e50;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .panel {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: linear-gradient(135deg, #fff9e6 0%, #ffe8f0 100%);
+      border: 4px solid #2c3e50;
+      box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 22px;
+    }
+
+    h1 {
+      color: #ff1493;
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 0.65rem;
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 62vh;
+      border: 3px solid #ff1493;
+      background: #fff;
+      color: #2c3e50;
+      padding: 12px;
+      font-family: Consolas, 'Courier New', monospace;
+      font-size: 14px;
+      line-height: 1.5;
+      resize: vertical;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      border: 3px solid;
+      padding: 12px 16px;
+      font-family: 'Press Start 2P', 'Courier New', monospace;
+      font-size: 0.58rem;
+      cursor: pointer;
+    }
+
+    .btn-save {
+      background: #ff1493;
+      border-color: #ff1493;
+      color: #fff;
+    }
+
+    .btn-back {
+      background: #8b008b;
+      border-color: #8b008b;
+      color: #fff;
+    }
+
+    .status {
+      margin-top: 10px;
+      font-size: 0.6rem;
+      min-height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Edit Full Portfolio JSON</h1>
+    <p>Paste or edit your complete profile JSON here. Save will validate JSON and update all sections.</p>
+
+    <form id="jsonForm">
+      <textarea id="jsonEditor" spellcheck="false"></textarea>
+      <div class="btn-row">
+        <button type="submit" class="btn btn-save">SAVE JSON</button>
+        <a href="/" class="btn btn-back">BACK</a>
+      </div>
+      <div id="status" class="status"></div>
+    </form>
+  </div>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

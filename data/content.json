@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "siteTitle": "Deekshana C S",
+    "tagline": "Building AI systems that solve real-world problems at scale"
+  },
+  "hero": {
+    "name": "Deekshana C S",
+    "role": "AI & Full Stack Developer",
+    "location": "Tamil Nadu, India",
+    "email": "deekshanacs8@gmail.com",
+    "phone": "+91-9087842931",
+    "linkedin": "https://linkedin.com/in/deekshana-c-s-921564292",
+    "github": "https://github.com/deekshanacs",
+    "headline": "AI Engineer | ML Researcher | Problem Solver",
+    "summary": "I build AI-powered systems that create real-world impact across agriculture, healthcare, and sustainability domains."
+  },
+  "about": {
+    "shortBio": "Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning with strong expertise in Deep Learning, NLP, and Computer Vision.",
+    "longBio": "I am passionate about building AI-driven solutions that solve real-world challenges. My work spans across agriculture, healthcare, and environmental sustainability, where I focus on developing scalable, impactful systems. From designing crop prediction models to deploying real-time monitoring systems, I aim to combine research and engineering to create meaningful innovation. I actively work with Generative AI, cloud platforms, and real-time data systems to push the boundaries of applied AI.",
+    "mission": "To build intelligent systems that create sustainable and scalable impact for society."
+  },
+  "skills": {
+    "languages": [
+      "Python",
+      "C",
+      "Java",
+      "HTML"
+    ],
+    "ai_ml": [
+      "Deep Learning",
+      "Neural Networks",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Generative AI"
+    ],
+    "data_science": [
+      "Pandas",
+      "NumPy",
+      "Statistical Analysis",
+      "Data Visualization",
+      "Feature Engineering"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "UiPath",
+      "Simulink"
+    ],
+    "cloud_ai": [
+      "Google Cloud",
+      "Vertex AI",
+      "Prompt Engineering",
+      "Model Fine-tuning",
+      "IoT Integration"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Machine Learning Intern",
+      "company": "Infosys Springboard",
+      "duration": "Nov 2025 - Jan 2026",
+      "type": "Remote",
+      "highlights": [
+        "Developed intrusion detection system using Random Forest and XGBoost with 96% accuracy",
+        "Reduced false positives by 35% using advanced feature engineering",
+        "Built scalable ML pipeline for real-time network traffic analysis"
+      ]
+    },
+    {
+      "title": "Professional Services Consultant",
+      "company": "Certainti.AI (Resdev Solutions)",
+      "duration": "Jul 2025 - Oct 2025",
+      "type": "Remote",
+      "highlights": [
+        "Optimized AI workflows for enterprise deployment",
+        "Improved operational efficiency by 25%",
+        "Collaborated across global teams for project delivery"
+      ]
+    },
+    {
+      "title": "Generative AI Virtual Intern",
+      "company": "Google Cloud Platform",
+      "duration": "Apr 2025 - May 2025",
+      "type": "Remote",
+      "highlights": [
+        "Worked on prompt engineering and model fine-tuning",
+        "Built 5+ production-ready Generative AI applications",
+        "Used Vertex AI for deployment following Responsible AI principles"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "role": "Lead Researcher",
+      "project": "U-Smart Tribal Farming Project",
+      "year": "2024",
+      "impact": [
+        "Achieved 87% accuracy in crop yield prediction",
+        "Integrated IoT sensors for real-time analytics",
+        "Benefited 500+ farmers"
+      ]
+    },
+    {
+      "role": "AI Research Scientist",
+      "organization": "SIDRA HUB",
+      "year": "2024",
+      "impact": [
+        "Built deep learning models using satellite imagery",
+        "Achieved 92% accuracy in drought detection",
+        "Implemented large-scale computer vision solutions"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cholan - Multilingual AI Agriculture Assistant",
+      "year": "2024",
+      "description": "AI voice assistant in Tamil supporting farmers with real-time agricultural insights",
+      "impact": [
+        "Served 50,000+ farmers",
+        "Achieved 85% intent recognition accuracy",
+        "Reduced crop loss by 30% using pest detection"
+      ],
+      "tech": [
+        "AI",
+        "NLP",
+        "Voice Processing",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "RiverAI - Real-Time River Monitoring System",
+      "year": "2024",
+      "description": "AI-based system to monitor and analyze river pollution in real time",
+      "impact": [
+        "Focused on environmental sustainability",
+        "Enabled real-time pollution tracking"
+      ],
+      "tech": [
+        "AI",
+        "IoT",
+        "Data Analytics"
+      ]
+    },
+    {
+      "name": "Nexus Pulse - Fetal Rhythm Tracking System",
+      "year": "2024",
+      "description": "Healthcare AI system for monitoring fetal health and rhythm patterns",
+      "tech": [
+        "AI",
+        "Signal Processing"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.E Computer Science Engineering (AI & ML)",
+    "college": "K.S. Rangasamy College of Technology",
+    "year": "2023 - 2027",
+    "cgpa": "8.82/10"
+  },
+  "achievements": [
+    "NASA Space Apps Challenge 2024 - Global Shortlist",
+    "TNWISE Women Hackathon 2025 - Top 10 Finalist",
+    "Published Author - Hope's Tapestry",
+    "Hosted and managed 50+ technical and cultural events"
+  ],
+  "extra": {
+    "languages": [
+      "English (Fluent)",
+      "Tamil (Native)"
+    ],
+    "interests": [
+      "AI Ethics",
+      "Sustainable Technology",
+      "Community Innovation"
+    ]
+  },
+  "contact": {
+    "cta": "If you are building impactful AI solutions, I would love to collaborate.",
+    "email": "deekshanacs8@gmail.com",
+    "linkedin": "https://linkedin.com/in/deekshana-c-s-921564292",
+    "github": "https://github.com/deekshanacs"
+  }
+}
