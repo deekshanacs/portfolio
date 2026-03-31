@@ -1,30 +1,48 @@
 {
   "meta": {
-    "siteTitle": "Deekshana C S",
-    "tagline": "Building AI systems that solve real-world problems at scale"
+    "siteTitle": "Deekshana C S | Quest Portfolio",
+    "tagline": "AI solutions with clarity, speed, and real impact"
   },
+  "bridgePhrase": "I design with intention, engineer with precision, and deliver with impact.",
+  "proofPoints": [
+    "Built AI products serving 50,000+ users",
+    "Achieved 96% model accuracy in security use case",
+    "Led 50+ technical and public events"
+  ],
   "hero": {
     "name": "Deekshana C S",
-    "role": "AI & Full Stack Developer",
+    "role": "Budding AI Engineer | Public Speaker",
     "location": "Tamil Nadu, India",
     "email": "deekshanacs8@gmail.com",
     "phone": "+91-9087842931",
     "linkedin": "https://linkedin.com/in/deekshana-c-s-921564292",
-    "github": "https://github.com/deekshanacs",
-    "headline": "AI Engineer | ML Researcher | Problem Solver",
-    "summary": "I build AI-powered systems that create real-world impact across agriculture, healthcare, and sustainability domains."
+    "photo": "/assets/profile-photo.png",
+    "headline": "I build practical AI systems that create measurable value.",
+    "summary": "I turn ideas into deployable products by combining machine learning, clear communication, and user-centered execution."
   },
   "about": {
-    "shortBio": "Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning with strong expertise in Deep Learning, NLP, and Computer Vision.",
-    "longBio": "I am passionate about building AI-driven solutions that solve real-world challenges. My work spans across agriculture, healthcare, and environmental sustainability, where I focus on developing scalable, impactful systems. From designing crop prediction models to deploying real-time monitoring systems, I aim to combine research and engineering to create meaningful innovation. I actively work with Generative AI, cloud platforms, and real-time data systems to push the boundaries of applied AI.",
-    "mission": "To build intelligent systems that create sustainable and scalable impact for society."
+    "shortBio": "I am a Computer Science Engineering student in AI and ML who enjoys translating complex data behavior into understandable, deployable AI systems.",
+    "longBio": "My work lives at the intersection of applied intelligence and social impact. I have explored agriculture, healthcare, and sustainability use cases where model reliability and practical usability matter equally. I enjoy building with deep learning, NLP, and cloud-based AI workflows while also speaking publicly about innovation and responsible AI adoption.",
+    "mission": "Build AI that is not only impressive in demos, but resilient and meaningful in the real world."
+  },
+  "education": {
+    "degree": "B.E Computer Science Engineering (AI and ML)",
+    "college": "K.S. Rangasamy College of Technology",
+    "year": "2023 - 2027",
+    "cgpa": "8.82/10",
+    "milestones": [
+      "Focused deeply on deep learning, NLP, and computer vision tracks",
+      "Led practical AI buildathons and cross-discipline technical events",
+      "Integrated research-led thinking into production-minded project builds"
+    ]
   },
   "skills": {
     "languages": [
       "Python",
       "C",
       "Java",
-      "HTML"
+      "HTML",
+      "JavaScript"
     ],
     "ai_ml": [
       "Deep Learning",
@@ -48,7 +66,8 @@
       "GitHub",
       "VS Code",
       "UiPath",
-      "Simulink"
+      "Simulink",
+      "Figma"
     ],
     "cloud_ai": [
       "Google Cloud",
@@ -65,20 +84,20 @@
       "duration": "Nov 2025 - Jan 2026",
       "type": "Remote",
       "highlights": [
-        "Developed intrusion detection system using Random Forest and XGBoost with 96% accuracy",
-        "Reduced false positives by 35% using advanced feature engineering",
-        "Built scalable ML pipeline for real-time network traffic analysis"
+        "Built an intrusion detection system using Random Forest and XGBoost with 96% accuracy",
+        "Reduced false positives by 35% via feature engineering and threshold tuning",
+        "Designed scalable model flow for near real-time traffic analysis"
       ]
     },
     {
       "title": "Professional Services Consultant",
       "company": "Certainti.AI (Resdev Solutions)",
       "duration": "Jul 2025 - Oct 2025",
-      "type": "Remote",
+      "type": "Hybrid",
       "highlights": [
-        "Optimized AI workflows for enterprise deployment",
-        "Improved operational efficiency by 25%",
-        "Collaborated across global teams for project delivery"
+        "Optimized enterprise AI workflow design for smoother deployment",
+        "Improved operational delivery performance by 25%",
+        "Collaborated with distributed teams for milestone-driven execution"
       ]
     },
     {
@@ -87,31 +106,20 @@
       "duration": "Apr 2025 - May 2025",
       "type": "Remote",
       "highlights": [
-        "Worked on prompt engineering and model fine-tuning",
-        "Built 5+ production-ready Generative AI applications",
-        "Used Vertex AI for deployment following Responsible AI principles"
-      ]
-    }
-  ],
-  "research": [
-    {
-      "role": "Lead Researcher",
-      "project": "U-Smart Tribal Farming Project",
-      "year": "2024",
-      "impact": [
-        "Achieved 87% accuracy in crop yield prediction",
-        "Integrated IoT sensors for real-time analytics",
-        "Benefited 500+ farmers"
+        "Worked on prompt engineering and model fine-tuning patterns",
+        "Developed multiple deployment-ready GenAI prototypes",
+        "Applied Responsible AI principles while using Vertex AI workflows"
       ]
     },
     {
-      "role": "AI Research Scientist",
-      "organization": "SIDRA HUB",
-      "year": "2024",
-      "impact": [
-        "Built deep learning models using satellite imagery",
-        "Achieved 92% accuracy in drought detection",
-        "Implemented large-scale computer vision solutions"
+      "title": "Java Full Stack Developer Virtual Internship",
+      "company": "EduSkills Academy",
+      "duration": "2025",
+      "type": "Virtual",
+      "highlights": [
+        "Built end-to-end Java-based web modules with backend integration",
+        "Practiced full stack workflows across UI, API, and data layers",
+        "Strengthened deployment-ready coding standards through guided projects"
       ]
     }
   ],
@@ -119,26 +127,26 @@
     {
       "name": "Cholan - Multilingual AI Agriculture Assistant",
       "year": "2024",
-      "description": "AI voice assistant in Tamil supporting farmers with real-time agricultural insights",
+      "description": "AI voice assistant in Tamil offering actionable farm guidance through real-time intelligence.",
       "impact": [
         "Served 50,000+ farmers",
-        "Achieved 85% intent recognition accuracy",
-        "Reduced crop loss by 30% using pest detection"
+        "Reached 85% intent recognition accuracy",
+        "Helped reduce crop loss through faster pest awareness"
       ],
       "tech": [
-        "AI",
         "NLP",
         "Voice Processing",
-        "Deep Learning"
+        "Deep Learning",
+        "AI Product Design"
       ]
     },
     {
       "name": "RiverAI - Real-Time River Monitoring System",
       "year": "2024",
-      "description": "AI-based system to monitor and analyze river pollution in real time",
+      "description": "AI + IoT framework for real-time river pollution tracking and analytics.",
       "impact": [
-        "Focused on environmental sustainability",
-        "Enabled real-time pollution tracking"
+        "Enabled continuous monitoring",
+        "Created transparent insights for sustainability actions"
       ],
       "tech": [
         "AI",
@@ -149,38 +157,140 @@
     {
       "name": "Nexus Pulse - Fetal Rhythm Tracking System",
       "year": "2024",
-      "description": "Healthcare AI system for monitoring fetal health and rhythm patterns",
+      "description": "Healthcare-focused AI signal interpretation model for fetal rhythm observations.",
+      "impact": [
+        "Built for early anomaly awareness",
+        "Designed for interpretable clinician support"
+      ],
       "tech": [
         "AI",
-        "Signal Processing"
+        "Signal Processing",
+        "Healthcare Data"
       ]
     }
   ],
-  "education": {
-    "degree": "B.E Computer Science Engineering (AI & ML)",
-    "college": "K.S. Rangasamy College of Technology",
-    "year": "2023 - 2027",
-    "cgpa": "8.82/10"
-  },
-  "achievements": [
-    "NASA Space Apps Challenge 2024 - Global Shortlist",
-    "TNWISE Women Hackathon 2025 - Top 10 Finalist",
-    "Published Author - Hope's Tapestry",
-    "Hosted and managed 50+ technical and cultural events"
+  "certificates": [
+    {
+      "title": "Machine Learning Internship Completion",
+      "issuer": "Infosys Springboard",
+      "year": "2026",
+      "description": "Hands-on model development and deployment practices.",
+      "file": "/assets/cert-1.pdf"
+    },
+    {
+      "title": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+      "issuer": "Oracle",
+      "year": "2025",
+      "description": "Validated foundational AI knowledge on Oracle Cloud Infrastructure services and workflows.",
+      "file": "/assets/Oracle_AI Foundations Associate.pdf"
+    },
+    {
+      "title": "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
+      "issuer": "Oracle",
+      "year": "2025",
+      "description": "Demonstrated advanced DevOps practices for CI/CD, automation, and reliability on OCI.",
+      "file": "/assets/Oracle_DevOps Professional.pdf"
+    },
+    {
+      "title": "Data Analytics Job Simulation",
+      "issuer": "Deloitte (Forage)",
+      "year": "2025",
+      "description": "Completed practical analytics tasks focused on data interpretation and business insight delivery.",
+      "file": "/assets/Data analytics.pdf"
+    },
+    {
+      "title": "Generative AI Program",
+      "issuer": "AICTE EduSkills (Google Cloud)",
+      "year": "2025",
+      "description": "Prompt strategy, model workflows, and responsible AI alignment.",
+      "file": "/assets/cert-2.pdf"
+    },
+    {
+      "title": "Java Full Stack Developer Virtual Internship",
+      "issuer": "AICTE EduSkills",
+      "year": "2025",
+      "description": "Virtual internship focused on full stack Java development and practical project execution.",
+      "file": "/assets/cert-3.pdf"
+    }
   ],
-  "extra": {
-    "languages": [
-      "English (Fluent)",
-      "Tamil (Native)"
+  "outOfBox": {
+    "expertise": [
+      "Public Speaking for Technical Audiences",
+      "AI Storytelling and Demo Framing",
+      "Community Event Orchestration",
+      "Research-to-Product Translation",
+      "Cross-functional Collaboration"
     ],
-    "interests": [
-      "AI Ethics",
-      "Sustainable Technology",
-      "Community Innovation"
+    "artifacts": [
+      {
+        "image": "/assets/gallery-11.jpeg"
+      },
+      {
+        "image": "/assets/gallery-12.jpeg"
+      },
+      {
+        "image": "/assets/gallery-13.jpeg"
+      },
+      {
+        "image": "/assets/gallery-14.jpeg"
+      },
+      {
+        "image": "/assets/gallery-15.jpeg"
+      },
+      {
+        "image": "/assets/gallery-16.jpeg"
+      },
+      {
+        "image": "/assets/gallery-17.jpeg"
+      },
+      {
+        "image": "/assets/gallery-18.jpeg"
+      },
+      {
+        "image": "/assets/gallery-19.jpeg"
+      },
+      {
+        "image": "/assets/gallery-20.jpeg"
+      }
     ]
   },
+  "gallery": [
+    {
+      "image": "/assets/gallery-1.jpeg"
+    },
+    {
+      "image": "/assets/gallery-2.jpeg"
+    },
+    {
+      "image": "/assets/gallery-3.jpeg"
+    },
+    {
+      "image": "/assets/gallery-4.jpeg"
+    },
+    {
+      "image": "/assets/gallery-5.jpeg"
+    },
+    {
+      "image": "/assets/gallery-6.jpeg"
+    },
+    {
+      "image": "/assets/gallery-7.jpeg"
+    },
+    {
+      "image": "/assets/gallery-8.jpeg"
+    },
+    {
+      "image": "/assets/gallery-9.jpeg"
+    },
+    {
+      "image": "/assets/gallery-10.jpeg"
+    }
+  ],
+  "resume": {
+    "url": "/assets/DeekshanaCS_resume.docx-compressed%20(1).pdf"
+  },
   "contact": {
-    "cta": "If you are building impactful AI solutions, I would love to collaborate.",
+    "cta": "If you are building an ambitious AI product and want clarity from day one, let us connect.",
     "email": "deekshanacs8@gmail.com",
     "linkedin": "https://linkedin.com/in/deekshana-c-s-921564292",
     "github": "https://github.com/deekshanacs"

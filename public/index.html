@@ -3,85 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deekshana's World</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Quest Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Monoton&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-  <div class="pixel-background"></div>
+<body class="map-page" data-page="map">
+  <div class="ambient-layer" aria-hidden="true"></div>
+  <div class="floating-particles" id="floating-particles" aria-hidden="true"></div>
 
-  <div class="container">
-    <div class="header-card pixel-box">
-      <h1 id="hero-name">Deekshana C S</h1>
-      <p id="hero-role" class="subheading">AI & Full Stack Developer</p>
-      <p id="hero-headline" class="bio-text"></p>
-      <p id="hero-summary" class="bio-text"></p>
+  <div class="map-shell">
+    <header class="hero-panel reveal">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div id="proof-strip" class="proof-strip"></div>
+          <div class="cred-row">
+            <span class="cred-pill">Research-led</span>
+            <span class="cred-pill">Impact-driven</span>
+            <span class="cred-pill">Production-ready</span>
+          </div>
+          <p class="kicker">Quest Profile</p>
+          <h1 id="hero-name">Deekshana C S</h1>
+          <p id="hero-role" class="hero-role">Budding AI Engineer | Public Speaker</p>
+          <p id="hero-tagline" class="hero-tagline"></p>
+          <p id="hero-summary" class="hero-summary"></p>
+          <div class="hero-actions">
+            <a class="action-btn" id="resume-link" href="#" download>Download Resume</a>
+            <a class="action-btn alt" href="/gallery.html">Open Memory Arcade</a>
+          </div>
+        </div>
+        <figure class="hero-photo-wrap">
+          <img id="hero-photo" src="/assets/profile-photo-placeholder.svg" alt="Portrait of Deekshana C S">
+          <figcaption>From vision to value, one build at a time.</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <section class="bridge-phrase reveal">
+      <div class="ribbon-divider" aria-hidden="true"></div>
+      <p id="bridge-phrase-text">I do not just map ideas. I convert them into systems people can trust and use.</p>
+      <p class="bridge-note">Creative thinking, engineered with professional discipline.</p>
+    </section>
+
+    <section class="map-panel reveal">
+      <div class="map-title-row">
+        <h2>Overworld Portal Grid</h2>
+        <p>Tap any zone to enter its story map.</p>
+        <div class="legend-row">
+          <span class="legend-pill">Playful UI</span>
+          <span class="legend-pill">Readable Content</span>
+          <span class="legend-pill">Cinematic Navigation</span>
+        </div>
+      </div>
+      <div class="zone-grid">
+        <a class="zone-tile zone-a" href="/about.html">
+          <h3>Whispering Origin</h3>
+          <p>The gist behind the builder.</p>
+        </a>
+        <a class="zone-tile zone-b" href="/education.html">
+          <h3>Academy Arc</h3>
+          <p>Where fundamentals became flight.</p>
+        </a>
+        <a class="zone-tile zone-c" href="/skills.html">
+          <h3>Skill Forge</h3>
+          <p>Abilities shaped under pressure.</p>
+        </a>
+        <a class="zone-tile zone-d" href="/experience.html">
+          <h3>Expedition Log</h3>
+          <p>Missions completed in real arenas.</p>
+        </a>
+        <a class="zone-tile zone-e" href="/projects.html">
+          <h3>Build Dungeon</h3>
+          <p>Project works and crafted systems.</p>
+        </a>
+        <a class="zone-tile zone-f" href="/certificates.html">
+          <h3>Trophy Vault</h3>
+          <p>Certificates and milestone proofs.</p>
+        </a>
+        <a class="zone-tile zone-g" href="/out-of-box.html">
+          <h3>Beyond Boundaries</h3>
+          <p>Out of box expertise unlocked.</p>
+        </a>
+        <a class="zone-tile zone-h" href="/contact.html">
+          <h3>Signal Tower</h3>
+          <p>Start the next collaboration quest.</p>
+        </a>
+      </div>
+    </section>
+
+    <div class="floating-note reveal">
+      <p>Hint: every area carries a different mood and story rhythm.</p>
     </div>
-
-    <div class="content-wrapper">
-      <aside class="sidebar pixel-box">
-        <h3>Destinations</h3>
-        <nav class="destination-menu">
-          <a href="#about" class="dest-btn">about</a>
-          <a href="#skills" class="dest-btn">skills</a>
-          <a href="#experience" class="dest-btn">experience</a>
-          <a href="#research" class="dest-btn">research</a>
-          <a href="#projects" class="dest-btn">projects</a>
-          <a href="#education" class="dest-btn">education</a>
-          <a href="#achievements" class="dest-btn">achievements</a>
-          <a href="#extra" class="dest-btn">extra</a>
-          <a href="#contact" class="dest-btn">contact</a>
-        </nav>
-      </aside>
-
-      <main class="main-content">
-        <section id="about" class="content-section pixel-box">
-          <h2 class="section-title">About</h2>
-          <div id="about-content"></div>
-        </section>
-
-        <section id="skills" class="content-section pixel-box">
-          <h2 class="section-title">Skills</h2>
-          <div id="skills-content"></div>
-        </section>
-
-        <section id="experience" class="content-section pixel-box">
-          <h2 class="section-title">Experience</h2>
-          <div id="experience-content"></div>
-        </section>
-
-        <section id="research" class="content-section pixel-box">
-          <h2 class="section-title">Research</h2>
-          <div id="research-content"></div>
-        </section>
-
-        <section id="projects" class="content-section pixel-box">
-          <h2 class="section-title">Projects</h2>
-          <div id="projects-content"></div>
-        </section>
-
-        <section id="education" class="content-section pixel-box">
-          <h2 class="section-title">Education</h2>
-          <div id="education-content"></div>
-        </section>
-
-        <section id="achievements" class="content-section pixel-box">
-          <h2 class="section-title">Achievements</h2>
-          <div id="achievements-content"></div>
-        </section>
-
-        <section id="extra" class="content-section pixel-box">
-          <h2 class="section-title">Languages & Interests</h2>
-          <div id="extra-content"></div>
-        </section>
-
-        <section id="contact" class="content-section pixel-box">
-          <h2 class="section-title">Contact</h2>
-          <div id="contact-content"></div>
-        </section>
-      </main>
-    </div>
-
   </div>
 
   <script src="/app.js"></script>
